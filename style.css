@@ -1,0 +1,118 @@
+body {
+  font-family: Arial;
+  background-image: url('images/deadleafbackground.jpg');
+  background-size: auto; 
+  background-size: cover;
+}
+
+nav {
+  border-bottom: 2px solid pink;
+}
+
+h6 {
+  text-align: center;
+  padding-top: 7px;
+}
+
+span {
+  text-shadow: 2px 6px lightgray;
+}
+
+footer {
+  height: 60px;
+  background-color: lightblue;
+  border-top: 2px solid pink;
+}
+
+.profile-pic {
+  height: 120px;
+  width: 120px;
+  margin-left: 55px;
+} 
+
+.pro-sec {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 55px;
+}
+
+.pro-sec p {
+  line-height: 1.7;
+}
+
+.name {
+  margin-left: 55px;
+}
+
+.name p {
+  line-height: 1.7;
+}
+
+.photo-name {
+  background-color: antiquewhite;
+  padding-bottom: 50px;
+}
+
+.aboutme p {
+  line-height: 1.8;
+}
+
+.aboutme {
+  background-color: #7FFFD4;
+}
+
+.aboutme p {
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.experiences {
+  background-color: #ADD8E6;
+}
+
+.experiences p {
+  padding-bottom: 20px;
+  line-height: 1.7;
+}
+
+.certificates {
+  background-color: #F0E68C;
+}
+
+.certificates p {
+  padding-bottom: 20px;
+}
+
+.skills {
+  background-color: #20B2AA;
+}
+
+.typeskills {
+  padding-bottom: 20px;
+}
+
+.projects {
+  background-color: #FFB6C1;
+}
+
+.html-projects {
+  padding-bottom: 40px;
+}
+
+.html-projects img {
+  height: 160px;
+  width:240px;
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
+.aboutme, .experiences, .skills, .certificates, .projects {
+  padding-left: 40px;
+}
+
+.aboutme, .photo-name, .experiences, .skills, .certificates, .projects {
+  border: 2px solid black;
+  margin: 25px 75px 25px 75px;
+  border-radius: 12px;
+}
